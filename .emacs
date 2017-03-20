@@ -29,6 +29,7 @@ Return a list of installed packages or nil for every skipped package."
 
 ;; Assuming you wish to install "iedit" and "magit"
 (ensure-package-installed
+ 'fsharp-mode
  'evil
  'helm
  'latex-preview-pane
